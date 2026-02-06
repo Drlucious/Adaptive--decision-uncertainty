@@ -1,0 +1,26 @@
+# Methods and Implementation Notes
+
+## Commitment Control
+Participants must explicitly confirm numerical estimates and confidence ratings using a dedicated button. 
+This prevents accidental or transient motor responses from being recorded as final judgments.
+
+## Trial Independence
+All response components are reset at the beginning of each trial 
+to prevent carryover of previous responses or interaction states.
+
+## No External Feedback
+Trial-level correctness and points are not displayed. 
+Points are accumulated internally and revealed only at the end of the experiment 
+to ensure reliance on internal error monitoring rather than reinforcement learning.
+
+## Confidence Measurement
+Confidence is collected using a discrete five-point scale with a confirmation step. 
+Reaction times are logged to index metacognitive deliberation latency.
+
+## Threshold Rule
+Estimation accuracy is defined using a symmetric ±2 threshold 
+relative to the true value rather than exact matching, modeling tolerance-based accuracy.
+
+## Data Integrity
+Raw numerical estimates are logged prior to outcome evaluation,
+ensuring that belief states are preserved independently from reward computation.
