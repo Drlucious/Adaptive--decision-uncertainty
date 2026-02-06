@@ -1,0 +1,23 @@
+# Pavlovia Deployment Checklist
+
+## Sync
+1. Open PsychoPy
+2. Tools → Sync with Pavlovia
+3. Resolve any missing files or red errors
+
+## Browser Testing
+Test on:
+- Chrome (Windows/Mac)
+- Safari (Mac/iOS)
+- Android Chrome
+
+## Audio Policy
+Ensure participants interact with the page (e.g., instructions screen) before audio trials begin to satisfy browser autoplay restrictions.
+
+## Data Validation
+After pilot runs, verify CSV output includes:
+- estimate_raw
+- confidence
+- choice_text
+- earned_points
+- total_points 
