@@ -17,10 +17,10 @@ Only cumulative feedback is presented at the end of the experiment.
    - Cumulative Points
 
 ## Repository Structure
-experiment/ --> PsychoPy Task Files
-conditions/ --> Trial Condition Spreadsheets
-stimuli/ --> Images and Sound Files
-docs/ --> Methods and deployment documentation
+- experiment/ --> PsychoPy Task Files
+- conditions/ --> Trial Condition Spreadsheets
+- stimuli/ --> Images and Sound Files
+- docs/ --> Methods and deployment documentation
 
 ## Running Online 
 See 'docs/deployment.md` for Pavlovia instructions.
@@ -40,8 +40,8 @@ CSV files include:
 
 ## Author
 Gift Ayo
-Final Year
-- 
+Researcher
+
 
 
 
