@@ -27,7 +27,7 @@ See 'docs/deployment.md` for Pavlovia instructions.
 
 ## Data Output
 CSV files include:
-- estimate)raw
+- estimate_raw
 - estimate_value
 - true_value
 - threshold
